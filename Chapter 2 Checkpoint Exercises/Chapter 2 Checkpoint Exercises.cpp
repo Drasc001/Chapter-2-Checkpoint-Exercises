@@ -1,5 +1,4 @@
-// Chapter 2 Checkpoint Exercises.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Program to display your initials using character variables.
 
 #include <iostream>
 
