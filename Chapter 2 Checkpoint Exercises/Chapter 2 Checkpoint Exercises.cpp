@@ -1,20 +1,19 @@
-// Chapter 2 Checkpoint Exercises.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// This program stores and displays a person's name, address, and phone number
+// in separate string variables, and then prints them on the screen.
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    string name, address, phone;
+    name = "Daevon Rascoe";  
+    address = "608 My Street, Virginia Beach, VA";  
+    phone = "757-566-3992";  
+    cout << name << endl;
+    cout << address << endl;
+    cout << phone << endl;
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
