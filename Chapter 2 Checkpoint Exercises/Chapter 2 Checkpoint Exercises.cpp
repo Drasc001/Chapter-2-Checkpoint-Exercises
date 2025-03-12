@@ -5,7 +5,12 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    char first, middle, last;
+    first = 'D';
+    middle = 'T';
+    last = 'R';
+    cout << first << middle << last;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
