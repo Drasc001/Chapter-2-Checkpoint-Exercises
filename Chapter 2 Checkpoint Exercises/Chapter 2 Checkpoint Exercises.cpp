@@ -1,6 +1,7 @@
 // Program to display your initials using character variables.
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
