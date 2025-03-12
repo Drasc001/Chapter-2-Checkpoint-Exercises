@@ -1,1 +1,1 @@
-#IDE and VCS Setup Project
+IDE and VCS Setup Project
